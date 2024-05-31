@@ -1,0 +1,197 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+body {  
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.text-body:hover {
+    color: blue;
+}
+
+.vh-100{
+    margin-top: 30%;
+}
+
+.h-custom {
+height: calc(100% - 73px);
+}
+
+.images-main{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+
+/* Estilos para principal.php */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row .btn{
+    margin-top: 15px;
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% */
+}
+
+
+.row h5{
+    font-weight: bold;
+}
+
+.row a{
+    text-align: center;
+}
+
+.modal-title h5{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Estilo para el menú */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo para el botón del menú */
+.dropdown-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilo para los elementos del menú */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Aumentar el tamaño del calendario */
+.table-lg {
+    font-size: 1.5rem; /* Cambia el tamaño de fuente para aumentar el tamaño del calendario */
+}
+
+        /* Estilos para el efecto hover */
+        .day:hover {
+            background-color: #e9ecef; /* Cambia el color de fondo al pasar el cursor */
+            cursor: pointer; /* Cambia el cursor a una mano para indicar que es clickeable */
+        }
+        .day {
+            width: 7em; /* Ancho del cuadro */
+            height: 7em; /* Altura del cuadro */
+            line-height: 3em; /* Alineación vertical del texto en el centro */
+            font-size: 1rem; /* Tamaño del texto */
+        }
+
+/* Cambiar el color de fondo de los elementos al pasar el ratón por encima */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Mostrar el contenido cuando el usuario pasa el ratón sobre el botón */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.pausado {
+    background-color: #f8d7da; /* Rojo claro */
+    font-weight: bold;
+    text-align: center;
+}
+
+.sin-abrir {
+    background-color: #ff9900; /* Amarillo claro */
+    text-align: center;
+    font-weight: bold;
+}
+
+.surtiendo {
+    background-color: #ffe602; /* Verde claro */
+    text-align: center;
+    font-weight: bold;
+}
+
+.checando {
+    background-color: #f9baff; /* Azul claro */
+    text-align: center;
+    font-weight: bold;
+}
+
+.facturando {
+    background-color: #000850; /* Cyan claro */
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.listo-salida {
+    background-color: #00bd19; /* Gris claro */
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.enviado {
+    background-color: #168100; /* Blanco */
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilo adicional para el modal */
+.modal-lg { max-width: 70% !important; }
+
+.modal-content {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-header {
+    background-color: #002c5c;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
